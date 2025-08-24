@@ -1,10 +1,10 @@
 public class RomanToInt {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.romanToInt("MCMXCIV - Expected 1994"));
-        System.out.println(sol.romanToInt("III - Expected 3" ));
-        System.out.println(sol.romanToInt("LVIII - Expected 58"));
-        System.out.println(sol.romanToInt("IV - Expected 4"));
+        System.out.println(sol.romanToInt("MCMXCIV")); //Expected 1994
+        System.out.println(sol.romanToInt("III" )); // Expected 3
+        System.out.println(sol.romanToInt("LVIII")); // Expected 58
+        System.out.println(sol.romanToInt("IV")); // Expected 4
     }
 }
 
@@ -12,13 +12,6 @@ public class RomanToInt {
 class Solution {
     public int romanToInt(String s) {
         
-        int I = 1;
-        int V = 5;
-        int X = 10;
-        int L = 50;
-        int C = 100;
-        int D = 500;
-        int M = 1000;
         int result = 0;
 
 
@@ -106,4 +99,5 @@ class Solution {
     return result;
 
     }
+
 }
